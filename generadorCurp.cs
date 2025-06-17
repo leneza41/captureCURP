@@ -101,17 +101,17 @@ namespace captureCURP
             curp += random.Next(0, 10);
             curp = curp.ToUpper();
             lblCurp.Text = curp;
-            Debug.WriteLine($"CURP Generada: {curp}");
             MessageBox.Show("La CURP se genero exitosamente");
             OnCurpGenerada();
         }
 
-        protected virtual void OnCurpGenerada()
+        public virtual void OnCurpGenerada()
         {
+            Debug.WriteLine("OnCurpGenerada called");
             CurpGenerada?.Invoke(this, EventArgs.Empty);
         }
 
-    private char getFirstOcurrence(string str, bool vowel)
+        private char getFirstOcurrence(string str, bool vowel)
         {
             for(int i = 0; i < str.Length; i++  )
             {

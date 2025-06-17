@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generadorCURP", "generadorCURP.csproj", "{562A79FC-B5DA-463A-8DA5-98C58A37ADA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "generadorCURP", "generadorCURP.csproj", "{562A79FC-B5DA-463A-8DA5-98C58A37ADA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{47697B35-D80D-49D3-BB6C-36DCE92023AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "..\Test\Test.csproj", "{47697B35-D80D-49D3-BB6C-36DCE92023AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
